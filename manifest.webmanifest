@@ -1,0 +1,58 @@
+{
+  "name": "World Radio \u2014 Relax & Listen",
+  "short_name": "World Radio",
+  "description": "World Radio \u2014 thousands of stations, one self-contained page.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "background_color": "#070b14",
+  "theme_color": "#0c1222",
+  "orientation": "any",
+  "categories": [
+    "music",
+    "entertainment"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Discover",
+      "url": "./?view=discover",
+      "description": "Popular stations worldwide"
+    },
+    {
+      "name": "Favorites",
+      "url": "./?view=favorites",
+      "description": "Your saved stations"
+    }
+  ]
+}
